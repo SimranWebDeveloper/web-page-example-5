@@ -1,0 +1,45 @@
+
+// Sass
+.wrapper{
+    color: var(--iorigreen);
+    .con{
+        .offer{
+            h1{
+                font-size: 48px;
+            }
+            p{
+                font-size: 18px;
+            }
+            .card-con{
+                display: flex;
+                flex-wrap: wrap;
+                .card{
+                    width: 30%;
+                    height: auto;
+                    background-color: aliceblue;
+                    margin-right: 25px;
+                    margin-bottom: 10px;
+                    border: 2px solid var(--iorigreen);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  .card-items{
+                    width: 80%;
+                    height: 290px;
+
+                    button{
+                        border: none;
+                        background-color: $mywhite1;
+                        &:hover{
+                            color:  rgb(44, 204, 204);
+                            font-weight:bold ;
+                        }
+                        i{}
+                    }
+                }  
+                }
+                
+            }
+        }
+    }
+}

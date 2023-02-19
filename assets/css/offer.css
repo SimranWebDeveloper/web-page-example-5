@@ -1,0 +1,39 @@
+.wrapper{
+    color: var(--iorigreen);
+}
+
+.offer h1{
+    font-size: 48px;
+}
+.offer p{
+    font-size: 18px;
+}
+.card-con{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-con .card{
+    width: 30%;
+    height: auto;
+    background-color: aliceblue;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    border: 2px solid var(--iorigreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-con .card .card-items{
+    width: 80%;
+    height: 290px;
+
+}
+.card-con .card .card-items button{
+    border: none;
+    background-color: #F0F8FF;
+}
+.card-con .card .card-items button:hover{
+    color:  rgb(44, 204, 204);
+    font-weight:bold ;
+    
+}

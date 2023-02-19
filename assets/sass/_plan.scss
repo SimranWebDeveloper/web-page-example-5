@@ -1,0 +1,47 @@
+
+.plan{
+    height: 700px;
+    background-color: $myblue;
+    .pcon1{
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        .pcon_11{
+            background-color: $mywhite;
+           
+            display: flex;
+            justify-content: center;
+            .pcon1_1{
+                width: 80%;
+                height: 500px;
+                
+               .one-two{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .two{
+                    h3{
+                       line-height: 10px;
+                    }
+                }
+                }
+                .btn1{
+                    width: 100%;
+                    height: 30px;
+                    background-color: $mygreen;
+                    color: $mywhite;
+                    border: none;
+                    &:hover{
+                        background-color: $mywhite;
+                        color: $mygreen;
+                    }
+                }
+               
+
+            }
+
+        }
+    }
+}

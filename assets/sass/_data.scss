@@ -1,0 +1,60 @@
+.wrapper{
+    .con{
+        .data{
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem;
+            color: $mygreen;
+            .inform{
+                h1{
+                    font-size:3rem;                    
+                }
+                p{}
+                ul{
+                    display: flex;
+                    padding-left: 0px;
+                    li{
+                        list-style: none;
+                        
+                        .btn1{
+                            color: $mywhite1;
+                            background-color: $mygreen;
+                            border-radius: 5px;
+                            border: none;
+                            padding: 0.5rem;
+                            margin-right: 10px;
+                            
+                            &:hover{
+                                color: $mygreen;
+                                background-color:$mywhite1 ;
+                                
+                            }
+                        }
+                        .btn2{
+                            color: $mygreen;
+                            background-color: $mywhite;
+                            border-radius: 5px;
+                            border: none;
+                            padding: 0.5rem;
+                            margin-right: 10px;
+                            &:hover{
+                                color: $mywhite1;
+                                background-color:$mygreen ;
+                                i{
+                                    
+                                }
+                               
+                            }
+                        }
+                    }
+                }
+            }
+            .image{
+                img{
+                    width: 400px;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
